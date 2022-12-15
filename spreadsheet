@@ -1,0 +1,21 @@
+//form to spreadsheet?"
+https://docs.google.com/spreadsheets/d/12345/edit#gid=0
+
+
+function saveData() {
+  //open current sheet
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var sh = ss.getSheetByName("Sheet1");
+
+  //open external sheet
+  var extSS = SpreadsheetApp.openById("Insert External Spreadsheet ID here");
+  var extSH = extSS.getSheetByName("Sheet1 External");
+
+  //get data from current Sheet.
+  var srcData = sh.getDataRange().getValues();
+
+  //write to external sheet
+  extSH.getRange(extSH.getLastRow()+1, 1, srcData.length, srcData[0].length).setValues(srcData);
+}
+
+
