@@ -31,38 +31,15 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">Msifa</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
-                aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="oi oi-menu"></span> Menu
-            </button>
-
-            <div class="collapse navbar-collapse" id="ftco-nav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="causes.html" class="nav-link">Causes</a></li>
-                    <li class="nav-item"><a href="donate.html" class="nav-link">Donate</a></li>
-                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-                    <li class="nav-item active"><a href="gallery.html" class="nav-link">Gallery</a></li>
-                    <li class="nav-item"><a href="event.html" class="nav-link">Events</a></li>
-                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <?php include('navbar.php') ?>
     <!-- END nav -->
 
     <div class="hero-wrap" style="background-image: url('images/bg_2.jpg');" data-stellar-background-ratio="0.5">
         <div class="overlay"></div>
         <div class="container">
-            <div class="row no-gutters slider-text align-items-center justify-content-center"
-                data-scrollax-parent="true">
+            <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
                 <div class="col-md-7 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
-                    <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span
-                            class="mr-2"><a href="index.html">Home</a></span> <span>Gallery</span></p>
+                    <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="index.html">Home</a></span> <span>Gallery</span></p>
                     <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Galleries
                     </h1>
                 </div>
@@ -73,90 +50,66 @@
     <section class="ftco-section ftco-gallery">
         <div class="container">
             <div class="d-md-flex">
-                <a href="images/cause-2.jpg"
-                    class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate"
-                    style="background-image: url(images/cause-2.jpg);">
+                <a href="images/cause-2.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url(images/cause-2.jpg);">
                     <div class="icon d-flex justify-content-center align-items-center">
                         <span class="icon-search"></span>
                     </div>
                 </a>
-                <a href="images/cause-3.jpg"
-                    class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate"
-                    style="background-image: url(images/cause-3.jpg);">
+                <a href="images/cause-3.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url(images/cause-3.jpg);">
                     <div class="icon d-flex justify-content-center align-items-center">
                         <span class="icon-search"></span>
                     </div>
                 </a>
-                <a href="images/cause-4.jpg"
-                    class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate"
-                    style="background-image: url(images/cause-4.jpg);">
+                <a href="images/cause-4.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url(images/cause-4.jpg);">
                     <div class="icon d-flex justify-content-center align-items-center">
                         <span class="icon-search"></span>
                     </div>
                 </a>
-                <a href="images/cause-5.jpg"
-                    class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate"
-                    style="background-image: url(images/cause-5.jpg);">
+                <a href="images/cause-5.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url(images/cause-5.jpg);">
                     <div class="icon d-flex justify-content-center align-items-center">
                         <span class="icon-search"></span>
                     </div>
                 </a>
             </div>
             <div class="d-md-flex">
-                <a href="images/cause-6.jpg"
-                    class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate"
-                    style="background-image: url(images/cause-6.jpg);">
+                <a href="images/cause-6.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url(images/cause-6.jpg);">
                     <div class="icon d-flex justify-content-center align-items-center">
                         <span class="icon-search"></span>
                     </div>
                 </a>
-                <a href="images/image_3.jpg"
-                    class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate"
-                    style="background-image: url(images/image_3.jpg);">
+                <a href="images/image_3.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url(images/image_3.jpg);">
                     <div class="icon d-flex justify-content-center align-items-center">
                         <span class="icon-search"></span>
                     </div>
                 </a>
-                <a href="images/image_1.jpg"
-                    class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate"
-                    style="background-image: url(images/image_1.jpg);">
+                <a href="images/image_1.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url(images/image_1.jpg);">
                     <div class="icon d-flex justify-content-center align-items-center">
                         <span class="icon-search"></span>
                     </div>
                 </a>
-                <a href="images/image_2.jpg"
-                    class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate"
-                    style="background-image: url(images/image_2.jpg);">
+                <a href="images/image_2.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url(images/image_2.jpg);">
                     <div class="icon d-flex justify-content-center align-items-center">
                         <span class="icon-search"></span>
                     </div>
                 </a>
             </div>
             <div class="d-md-flex">
-                <a href="images/event-1.jpg"
-                    class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate"
-                    style="background-image: url(images/event-1.jpg);">
+                <a href="images/event-1.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url(images/event-1.jpg);">
                     <div class="icon d-flex justify-content-center align-items-center">
                         <span class="icon-search"></span>
                     </div>
                 </a>
-                <a href="images/event-2.jpg"
-                    class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate"
-                    style="background-image: url(images/event-2.jpg);">
+                <a href="images/event-2.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url(images/event-2.jpg);">
                     <div class="icon d-flex justify-content-center align-items-center">
                         <span class="icon-search"></span>
                     </div>
                 </a>
-                <a href="images/image_1.jpg"
-                    class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate"
-                    style="background-image: url(images/image_4.jpg);">
+                <a href="images/image_1.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url(images/image_4.jpg);">
                     <div class="icon d-flex justify-content-center align-items-center">
                         <span class="icon-search"></span>
                     </div>
                 </a>
-                <a href="images/image_2.jpg"
-                    class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate"
-                    style="background-image: url(images/event-4.jpg);">
+                <a href="images/image_2.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url(images/event-4.jpg);">
                     <div class="icon d-flex justify-content-center align-items-center">
                         <span class="icon-search"></span>
                     </div>
@@ -237,8 +190,7 @@
                                         View, San Francisco, California, USA</span></li>
                                 <li><a href="gallery.html#"><span class="icon icon-phone"></span><span class="text">+2
                                             392 3929 210</span></a></li>
-                                <li><a href="gallery.html#"><span class="icon icon-envelope"></span><span
-                                            class="text">info@yourdomain.com</span></a></li>
+                                <li><a href="gallery.html#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -249,9 +201,10 @@
 
                     <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         Copyright &copy;
-                        <script>document.write(new Date().getFullYear());</script> All rights reserved | This template
-                        is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com"
-                            target="_blank">Colorlib</a>
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script> All rights reserved | This template
+                        is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     </p>
                 </div>
@@ -264,8 +217,7 @@
     <!-- loader -->
     <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
             <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
-            <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
-                stroke="#F96D00" />
+            <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" />
         </svg></div>
 
 
@@ -283,8 +235,7 @@
     <script src="js/bootstrap-datepicker.js"></script>
     <script src="js/jquery.timepicker.min.js"></script>
     <script src="js/scrollax.min.js"></script>
-    <script
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
     <script src="js/google-map.js"></script>
     <script src="js/main.js"></script>
 
