@@ -30,38 +30,16 @@
 </head>
 
 <body>
+  <?php include('navbar.php') ?>
 
-  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">Msifa</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
-        aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="oi oi-menu"></span> Menu
-      </button>
-
-      <div class="collapse navbar-collapse" id="ftco-nav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-          <li class="nav-item"><a href="causes.html" class="nav-link">Causes</a></li>
-          <li class="nav-item"><a href="donate.html" class="nav-link">Donate</a></li>
-          <!-- <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li> -->
-          <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
-          <li class="nav-item"><a href="team.html" class="nav-link">Team</a></li>
-          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-          <li class="nav-item"><a href="volunteer.html" class="nav-link">Volunteer</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
   <!-- END nav -->
 
-  <div class="hero-wrap" style="background-image: url('images/home-bg-2.jpg');" data-stellar-background-ratio="0.5">
+  <div class="hero-wrap" style="background-image: url('images/home-bg-2.jpg');filter: grayscale(90%);" data-stellar-background-ratio="0.5">
     <div class="overlay"></div>
     <div class="container">
       <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
         <div class="col-md-7 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
-          <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Changing lives one at a time.
+          <h1 class="mb-4 mt-5" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">&nbsp;<span style="color: #f86f2d;filter:none">Changing lives one at a time.</span>
           </h1>
 
         </div>
@@ -159,8 +137,7 @@
                     life</p>
                   <span class="donation-time mb-3 d-block">Last donation 1w ago</span>
                   <div class="progress custom-progress-success">
-                    <div class="progress-bar bg-primary" role="progressbar" style="width: 28%" aria-valuenow="28"
-                      aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 28%" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                   <span class="fund-raised d-block">$12,000 raised of $30,000</span>
                 </div>
@@ -175,8 +152,7 @@
                     life</p>
                   <span class="donation-time mb-3 d-block">Last donation 1w ago</span>
                   <div class="progress custom-progress-success">
-                    <div class="progress-bar bg-primary" role="progressbar" style="width: 28%" aria-valuenow="28"
-                      aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 28%" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                   <span class="fund-raised d-block">$12,000 raised of $30,000</span>
                 </div>
@@ -191,8 +167,7 @@
                     life</p>
                   <span class="donation-time mb-3 d-block">Last donation 1w ago</span>
                   <div class="progress custom-progress-success">
-                    <div class="progress-bar bg-primary" role="progressbar" style="width: 28%" aria-valuenow="28"
-                      aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 28%" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                   <span class="fund-raised d-block">$12,000 raised of $30,000</span>
                 </div>
@@ -207,8 +182,7 @@
                     life</p>
                   <span class="donation-time mb-3 d-block">Last donation 1w ago</span>
                   <div class="progress custom-progress-success">
-                    <div class="progress-bar bg-primary" role="progressbar" style="width: 28%" aria-valuenow="28"
-                      aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 28%" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                   <span class="fund-raised d-block">$12,000 raised of $30,000</span>
                 </div>
@@ -223,8 +197,7 @@
                     life</p>
                   <span class="donation-time mb-3 d-block">Last donation 1w ago</span>
                   <div class="progress custom-progress-success">
-                    <div class="progress-bar bg-primary" role="progressbar" style="width: 28%" aria-valuenow="28"
-                      aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 28%" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                   <span class="fund-raised d-block">$12,000 raised of $30,000</span>
                 </div>
@@ -239,8 +212,7 @@
                     life</p>
                   <span class="donation-time mb-3 d-block">Last donation 1w ago</span>
                   <div class="progress custom-progress-success">
-                    <div class="progress-bar bg-primary" role="progressbar" style="width: 28%" aria-valuenow="28"
-                      aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 28%" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                   <span class="fund-raised d-block">$12,000 raised of $30,000</span>
                 </div>
@@ -257,69 +229,56 @@
     <div class="row justify-content-center mb-5 pb-3">
       <div class="col-md-7 heading-section ftco-animate text-center">
         <h2 class="mb-4">Events Gallery</h2>
-        
+
       </div>
     </div>
     <div class="d-md-flex">
-      <a href="images/cause-2.jpg"
-        class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate"
-        style="background-image: url(images/cause-2.jpg);">
+      <a href="images/events/1.jpeg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url(images/events/1.jpeg);">
         <div class="icon d-flex justify-content-center align-items-center">
           <span class="icon-search"></span>
         </div>
       </a>
-      <a href="images/cause-3.jpg"
-        class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate"
-        style="background-image: url(images/cause-3.jpg);">
+      <a href="images/events/2.jpeg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url(images/events/2.jpeg);">
         <div class="icon d-flex justify-content-center align-items-center">
           <span class="icon-search"></span>
         </div>
       </a>
-      <a href="images/cause-4.jpg"
-        class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate"
-        style="background-image: url(images/cause-4.jpg);">
+      <a href="images/events/3.jpeg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url(images/events/3.jpeg);">
         <div class="icon d-flex justify-content-center align-items-center">
           <span class="icon-search"></span>
         </div>
       </a>
-      <a href="images/cause-5.jpg"
-        class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate"
-        style="background-image: url(images/cause-5.jpg);">
+      <a href="images/events/4.jpeg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url(images/events/4.jpeg);">
         <div class="icon d-flex justify-content-center align-items-center">
           <span class="icon-search"></span>
         </div>
       </a>
     </div>
     <div class="d-md-flex">
-      <a href="images/cause-6.jpg"
-        class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate"
-        style="background-image: url(images/cause-6.jpg);">
+      <a href="images/events/5.jpeg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url(images/events/5.jpeg);">
         <div class="icon d-flex justify-content-center align-items-center">
           <span class="icon-search"></span>
         </div>
       </a>
-      <a href="images/image_3.jpg"
-        class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate"
-        style="background-image: url(images/image_3.jpg);">
+      <a href="images/events/6.jpeg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url(images/events/6.jpeg);">
         <div class="icon d-flex justify-content-center align-items-center">
           <span class="icon-search"></span>
         </div>
       </a>
-      <a href="images/image_1.jpg"
-        class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate"
-        style="background-image: url(images/image_1.jpg);">
+      <a href="images/events/7.jpeg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url(images/events/7.jpeg);">
         <div class="icon d-flex justify-content-center align-items-center">
           <span class="icon-search"></span>
         </div>
       </a>
-      <a href="images/image_2.jpg"
-        class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate"
-        style="background-image: url(images/image_2.jpg);">
+      <a href="images/events/8.jpeg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url(images/events/8.jpeg);">
         <div class="icon d-flex justify-content-center align-items-center">
           <span class="icon-search"></span>
         </div>
       </a>
+
+     
     </div>
+    <button class="btn btn-success my-4" style="margin-left: 45%;">View more >></button>
   </section>
 
   <section class="ftco-section">
@@ -400,8 +359,7 @@
                 <div><a href="index.html#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
               </div>
               <h3 class="heading mb-4"><a href="index.html#">World Wide Donation</a></h3>
-              <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i
-                    class="icon-map-o"></i> Venue Main Campus</span></p>
+              <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
               <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
               <p><a href="event.html">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
             </div>
@@ -418,8 +376,7 @@
                 <div><a href="index.html#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
               </div>
               <h3 class="heading mb-4"><a href="index.html#">World Wide Donation</a></h3>
-              <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i
-                    class="icon-map-o"></i> Venue Main Campus</span></p>
+              <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
               <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
               <p><a href="event.html">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
             </div>
@@ -436,8 +393,7 @@
                 <div><a href="index.html#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
               </div>
               <h3 class="heading mb-4"><a href="index.html#">World Wide Donation</a></h3>
-              <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i
-                    class="icon-map-o"></i> Venue Main Campus</span></p>
+              <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
               <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
               <p><a href="event.html">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
             </div>
@@ -447,71 +403,14 @@
     </div>
   </section>
 
-  <footer class="ftco-footer ftco-section img">
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row mb-5">
-        <div class="col-md-3">
-          <div class="ftco-footer-widget mb-4">
-            <h2 class="ftco-heading-2">About Us</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
-              blind texts.</p>
-            <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-              <li class="ftco-animate"><a href="index.html#"><span class="icon-twitter"></span></a></li>
-              <li class="ftco-animate"><a href="index.html#"><span class="icon-facebook"></span></a></li>
-              <li class="ftco-animate"><a href="index.html#"><span class="icon-instagram"></span></a></li>
-            </ul>
-          </div>
-        </div>
 
-        <div class="col-md-2">
-          <div class="ftco-footer-widget mb-4 ml-md-4">
-            <h2 class="ftco-heading-2">Site Links</h2>
-            <ul class="list-unstyled">
-              <li><a href="index.html#" class="py-2 d-block">Home</a></li>
-              <li><a href="index.html#" class="py-2 d-block">About</a></li>
-              <li><a href="index.html#" class="py-2 d-block">Donate</a></li>
-              <li><a href="index.html#" class="py-2 d-block">Causes</a></li>
-              <li><a href="index.html#" class="py-2 d-block">Event</a></li>
-              <li><a href="index.html#" class="py-2 d-block">Blog</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="ftco-footer-widget mb-4">
-            <h2 class="ftco-heading-2">Have a Questions?</h2>
-            <div class="block-23 mb-3">
-              <ul>
-                <li><span class="icon icon-map-marker"></span><span class="text">Nairobi, Kenya -30100 </span></li>
-                <li><a href="index.html#"><span class="icon icon-phone"></span><span class="text">+254721139585</span></a></li>
-                <li><a href="index.html#"><span class="icon icon-envelope"></span><span
-                      class="text">info@msifa.org</span></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12 text-center">
-
-          <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;
-            <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with
-            <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-          </p>
-        </div>
-      </div>
-    </div>
-  </footer>
-
+  <?php include('footer.php') ?>
 
 
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
       <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
-      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
-        stroke="#F96D00" />
+      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" />
     </svg></div>
 
 
@@ -529,8 +428,7 @@
   <script src="js/bootstrap-datepicker.js"></script>
   <script src="js/jquery.timepicker.min.js"></script>
   <script src="js/scrollax.min.js"></script>
-  <script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
 
