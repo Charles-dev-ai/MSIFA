@@ -39,7 +39,7 @@
     <div class="container">
       <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
         <div class="col-md-7 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
-          <h1 class="mb-4 mt-5" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">&nbsp;<span style="color: #f86f2d;filter:none">Changing lives one at a time.</span>
+          <h1 class="mb-4 mt-5" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">&nbsp;<span style="color: #fff;filter:none">Changing lives one at a time.</span>
           </h1>
 
         </div>
@@ -276,9 +276,9 @@
         </div>
       </a>
 
-     
+
     </div>
-    <button class="btn btn-success my-4" style="margin-left: 45%;">View more >></button>
+    <button class="btn btn-success my-4" style="margin-left: 45%;" onclick="location.href='gallery.php';" >View more >></button>
   </section>
 
   <section class="ftco-section">

@@ -58,9 +58,8 @@
                         <div class="text p-4 d-block">
 
                             <h3 class="heading mb-4"><a href="event.html#">Edward Macharia</a></h3>
-                            <p class="time-loc"><span class="mr-2"> </span> <span><i class="icon-map-o"></i> CEO & Board
-                                    Chairman</span></p>
-                            <p>An ambitios team leader with expertise in NGO's.</p>
+                            <!-- <p class="time-loc"><span class="mr-2"> </span> <span><i class="icon-map-o"></i> CEO Msifa</span></p> -->
+                            <p>CEO Msifa ,CEO Special Needs,Learners Parents Association (SNLPA) Chairperson, Fundraising Committee HELP GLOBAL..</p>
 
                         </div>
                     </div>
@@ -72,9 +71,9 @@
                         </div>
                         <div class="text p-4 d-block">
 
-                            <h3 class="heading mb-4"><a href="event.html#">Edward Macharia</a></h3>
-                            <p class="time-loc"><span class="mr-2"> </span> <span><i class="icon-map-o"></i> Director</span></p>
-                            <p>An ambitios team leader with expertise in NGO's.</p>
+                            <h3 class="heading mb-4"><a href="event.html#">Dr.Felix Kanyi</a></h3>
+                            <!-- <p class="time-loc"><span class="mr-2"> </span> <span><i class="icon-map-o"></i> Director</span></p> -->
+                            <p>MD.Marketing, Msifa.CEO Kotani Pay.</p>
 
                         </div>
                     </div>
@@ -86,9 +85,9 @@
                         </div>
                         <div class="text p-4 d-block">
 
-                            <h3 class="heading mb-4"><a href="event.html#">Edward Macharia</a></h3>
-                            <p class="time-loc"><span class="mr-2"> </span> <span><i class="icon-map-o"></i> Director</span></p>
-                            <p>An ambitios team leader with expertise in NGO's.</p>
+                            <h3 class="heading mb-4"><a href="event.html#">Dennis Maina</a></h3>
+                            <!-- <p class="time-loc"><span class="mr-2"> </span> <span><i class="icon-map-o"></i> Director</span></p> -->
+                            <p>MD.Finance Msifa,,Finance Officer,KOTANI PAY..</p>
 
                         </div>
                     </div>
@@ -101,9 +100,9 @@
                         </div>
                         <div class="text p-4 d-block">
 
-                            <h3 class="heading mb-4"><a href="event.html#">Edward Macharia</a></h3>
-                            <p class="time-loc"><span class="mr-2"> </span> <span><i class="icon-map-o"></i> Director</span></p>
-                            <p>An ambitios team leader with expertise in NGO's.</p>
+                            <h3 class="heading mb-4"><a href="event.html#">Floric Burini</a></h3>
+                            <!-- <p class="time-loc"><span class="mr-2"> </span> <span><i class="icon-map-o"></i> Director</span></p> -->
+                            <p>HRM Msifa.MD Maric Brooke enterprises.</p>
 
                         </div>
                     </div>
