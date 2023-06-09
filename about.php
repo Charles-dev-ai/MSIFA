@@ -31,7 +31,7 @@
 
 <body>
 
-<?php include('navbar.php')?>
+  <?php include('navbar.php') ?>
   <!-- END nav -->
 
   <div class="hero-wrap" style="background-image: url('images/bg_7.jpg');" data-stellar-background-ratio="0.5">
@@ -39,8 +39,7 @@
     <div class="container">
       <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
         <div class="col-md-7 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
-          <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a
-                href="index.html">Home</a></span> <span>About</span></p>
+          <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="index.html">Home</a></span> <span>About</span></p>
           <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">About Us</h1>
         </div>
       </div>
@@ -50,74 +49,74 @@
 
   <section class="ftco-section">
     <div class="container">
-      <div class="row d-flex">
-        <div class="col-md-6 d-flex ftco-animate">
+      <div class="row d-flex mb-5">
+        <!-- <div class="col-md-6 d-flex ftco-animate"> -->
+
+          <!-- <section class="h-100">
+            <header class="container h-100">
+              <div class="d-flex align-items-center justify-content-center h-100">
+                <div class="d-flex flex-column">
+                  <h1 class="text align-self-center p-2">Msifa Limited.</h1>
+        
+                </div>
+              </div>
+            </header>
+          </section> -->
+
+          <!-- <span class="h3 align-items-center justify-content-center">Msifa</span> -->
           <!-- <div class="img img-about align-self-stretch" style="background-image: url(images/bg_3.jpg); width: 100%;"></div> -->
-          <div class="img img-about align-self-stretch">
+          <!-- <div class="img img-about align-self-stretch">
             <a href="#" class="logo"> <i class="fas fa-hand-holding-heart"></i> M-SIFA </a>
-          </div>
-        </div>
-        <div class="col-md-6 pl-md-5 ftco-animate">
-          <h2 class="mb-4">Welcome to Msifa Stablished Since 1898</h2>
-          <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and
-            devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial
-            into the belt and made herself on the way.</p>
-          <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have
-            been rewritten a thousand times and everything that was left from its origin would be the word "and" and the
-            Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could
-            convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with
-            Longe and Parole and dragged her into their agency, where they abused her for their.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="ftco-counter ftco-intro ftco-intro-2" id="section-counter">
-    <div class="container">
-      <div class="row no-gutters">
-        <div class="col-md-5 d-flex justify-content-center counter-wrap ftco-animate">
-          <div class="block-18 color-1 align-items-stretch">
-            <div class="text">
-              <span>Served Over</span>
-              <strong class="number" data-number="1432805">0</strong>
-              <span>Children in 190 countries in the world</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-          <div class="block-18 color-2 align-items-stretch">
-            <div class="text">
-              <h3 class="mb-4">Donate Money</h3>
-              <p>Even the all-powerful Pointing has no control about the blind texts.</p>
-              <p><a href="about.html#" class="btn btn-white px-3 py-2 mt-2">Donate Now</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-          <div class="block-18 color-3 align-items-stretch">
-            <div class="text">
-              <h3 class="mb-4">Be a Volunteer</h3>
-              <p>Even the all-powerful Pointing has no control about the blind texts.</p>
-              <p><a href="about.html#" class="btn btn-white px-3 py-2 mt-2">Be A Volunteer</a></p>
-            </div>
-          </div>
+          </div> -->
+        <!-- </div> -->
+        <div class="col-md-11 pl-md-5 ftco-animate">
+          <h2 class="mb-4">Welcome to Msifa Stablished Since 2016</h2>
+          <p>Msifa is qualified to tackle issue of food security and climate resilience as a result of a unique skillset mix between its team members spanning implementation of food and nuttrition programmes, education and software technology (Blockchain technology, data science and web2)</p>
+          <p>
+            Edward Maina, CEO, M-Sifa has over 15 years
+            experience in food security and nutrition
+            having worked extensively with special needs
+            schools, child mothers and homes for orphans
+            and vulnerable children. He has partnered with
+            various food organizations to run food and
+            nutrition programmes including Feed the
+            Children (Kenya), Food Banking Kenya, Food
+            For Education Kenya, churches, schools, local
+            banks and community social responsibility
+            organizations. He is currently the CEO of
+            Special Needs Learners Parents Association,
+            an organization focussed on assisting parents
+            with special needs children with food security,
+            and he is also a member of the Africa Food
+            fellowship Network.
+          </p>
+          <p>Kenn Kamau, Chief Technology Officer (CTO) is
+            an experienced back-end and android
+            developer with skills in Javascript, Python,
+            Rust, Golang and Kotlin and is a certified Near
+            Blockchain developer. Ken heads a team of 3
+            developers at M-sifa and guides the
+            implementation of M-sifa's products, technical
+            roadmap and system architecture.</p>
         </div>
       </div>
     </div>
   </section>
 
 
+  <?php include_once('data_card.php') ?>
+
+
   <br />
   <br />
   <br />
-  <?php include('footer.php')?>
+  <?php include('footer.php') ?>
 
 
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
       <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
-      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
-        stroke="#F96D00" />
+      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" />
     </svg></div>
 
 
@@ -135,8 +134,7 @@
   <script src="js/bootstrap-datepicker.js"></script>
   <script src="js/jquery.timepicker.min.js"></script>
   <script src="js/scrollax.min.js"></script>
-  <script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
 

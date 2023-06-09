@@ -87,7 +87,7 @@
 
                             <h3 class="heading mb-4"><a href="event.html#">Dennis Maina</a></h3>
                             <!-- <p class="time-loc"><span class="mr-2"> </span> <span><i class="icon-map-o"></i> Director</span></p> -->
-                            <p>MD.Finance Msifa,,Finance Officer,KOTANI PAY..</p>
+                            <p>MD.Finance Msifa,Finance Officer,KOTANI PAY.</p>
 
                         </div>
                     </div>
@@ -103,6 +103,20 @@
                             <h3 class="heading mb-4"><a href="event.html#">Floric Burini</a></h3>
                             <!-- <p class="time-loc"><span class="mr-2"> </span> <span><i class="icon-map-o"></i> Director</span></p> -->
                             <p>HRM Msifa.MD Maric Brooke enterprises.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 d-flex ftco-animate">
+                    <div class="blog-entry align-self-stretch">
+                        <div class="block-20" style="background-image: url('images/directors/5.jpg');padding: 10%;">
+                        </div>
+                        <div class="text p-4 d-block">
+
+                            <h3 class="heading mb-4"><a href="event.html#">Kenn Kamau</a></h3>
+                            <!-- <p class="time-loc"><span class="mr-2"> </span> <span><i class="icon-map-o"></i> Director</span></p> -->
+                            <p>CTO , Software engineer.</p>
 
                         </div>
                     </div>

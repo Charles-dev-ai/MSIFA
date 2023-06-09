@@ -47,39 +47,7 @@
     </div>
   </div>
 
-  <section class="ftco-counter ftco-intro" id="section-counter">
-    <div class="container">
-      <div class="row no-gutters">
-        <div class="col-md-5 d-flex justify-content-center counter-wrap ftco-animate">
-          <div class="block-18 color-1 align-items-stretch">
-            <div class="text">
-              <span>Served Over</span>
-              <strong class="number" data-number="1432805">0</strong>
-              <span>Children in 190 countries in the world</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-          <div class="block-18 color-2 align-items-stretch">
-            <div class="text">
-              <h3 class="mb-4">Donate Money</h3>
-              <p>Even the all-powerful Pointing has no control about the blind texts.</p>
-              <p><a href="index.html#" class="btn btn-white px-3 py-2 mt-2">Donate Now</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-          <div class="block-18 color-3 align-items-stretch">
-            <div class="text">
-              <h3 class="mb-4">Be a Volunteer</h3>
-              <p>Even the all-powerful Pointing has no control about the blind texts.</p>
-              <p><a href="index.html#" class="btn btn-white px-3 py-2 mt-2">Be A Volunteer</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  <?php  include_once('data_card.php')?>
 
   <section class="ftco-section">
     <div class="container">
@@ -89,7 +57,7 @@
             <div class="icon d-flex mb-3"><span class="flaticon-donation-1"></span></div>
             <div class="media-body pl-4">
               <h3 class="heading">Make Donation</h3>
-              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+              <p>We accept financial and non fincial donation to our causes.</p>
             </div>
           </div>
         </div>
@@ -98,7 +66,7 @@
             <div class="icon d-flex mb-3"><span class="flaticon-charity"></span></div>
             <div class="media-body pl-4">
               <h3 class="heading">Become A Volunteer</h3>
-              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+              <p>We work with any available man power to make a greater impact.</p>
             </div>
           </div>
         </div>
@@ -107,7 +75,7 @@
             <div class="icon d-flex mb-3"><span class="flaticon-donation"></span></div>
             <div class="media-body pl-4">
               <h3 class="heading">Sponsorship</h3>
-              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+              <p>Become a sponser, to make a dedicated commitment at making  a difference.</p>
             </div>
           </div>
         </div>
@@ -121,107 +89,59 @@
       <div class="row justify-content-center mb-5 pb-3">
         <div class="col-md-5 heading-section ftco-animate text-center">
           <h2 class="mb-4">Our Causes</h2>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
-            blind texts.</p>
+          <!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+            blind texts.</p> -->
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-12 ">
-          <div class="carousel-cause owl-carousel">
-            <div class="item">
-              <div class="cause-entry">
-                <a href="index.html#" class="img" style="background-image: url(images/cause-1.jpg);"></a>
-                <div class="text p-3 p-md-4">
-                  <h3><a href="index.html#">Clean water for the urban area</a></h3>
-                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic
-                    life</p>
-                  <span class="donation-time mb-3 d-block">Last donation 1w ago</span>
-                  <div class="progress custom-progress-success">
-                    <div class="progress-bar bg-primary" role="progressbar" style="width: 28%" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <span class="fund-raised d-block">$12,000 raised of $30,000</span>
-                </div>
+      <div class="">
+        <div class=" row d-flex my-4 ">
+          <!-- <div class="col-md-12 "> -->
+          <!-- carousel-cause owl-carousel -->
+
+          <div class="item col-3 my-3">
+            <div class="cause-entry">
+              <a href="index.html#" class="img" style="background-image: url(images/home-bg-2.jpg);"></a>
+              <div class="text p-3 p-md-4">
+                <h3><a href="index.html#">Food and Nutrition.</a></h3>
+                <p>Providing nutrition bar and foodstuff to the most needy in society</p>
+                <br />
+                <br />
               </div>
             </div>
-            <div class="item">
-              <div class="cause-entry">
-                <a href="index.html#" class="img" style="background-image: url(images/cause-2.jpg);"></a>
-                <div class="text p-3 p-md-4">
-                  <h3><a href="index.html#">Clean water for the urban area</a></h3>
-                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic
-                    life</p>
-                  <span class="donation-time mb-3 d-block">Last donation 1w ago</span>
-                  <div class="progress custom-progress-success">
-                    <div class="progress-bar bg-primary" role="progressbar" style="width: 28%" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <span class="fund-raised d-block">$12,000 raised of $30,000</span>
-                </div>
+          </div>
+          <div class="item col-3 my-3">
+            <div class="cause-entry">
+              <a href="index.html#" class="img" style="background-image: url(images/activities/22.jpeg);"></a>
+              <div class="text p-3 p-md-4">
+                <h3><a href="index.html#">All forms of Therapy for Health and Learning.</a></h3>
+                <p>Persons with Disabilities(PWD) and Autistic groups are one of our thematic areas</p>
+
               </div>
             </div>
-            <div class="item">
-              <div class="cause-entry">
-                <a href="index.html#" class="img" style="background-image: url(images/cause-3.jpg);"></a>
-                <div class="text p-3 p-md-4">
-                  <h3><a href="index.html#">Clean water for the urban area</a></h3>
-                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic
-                    life</p>
-                  <span class="donation-time mb-3 d-block">Last donation 1w ago</span>
-                  <div class="progress custom-progress-success">
-                    <div class="progress-bar bg-primary" role="progressbar" style="width: 28%" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <span class="fund-raised d-block">$12,000 raised of $30,000</span>
-                </div>
+          </div>
+          <div class="item col-3 my-3">
+            <div class="cause-entry">
+              <a href="index.html#" class="img" style="background-image: url(images/activities/7.jpeg);"></a>
+              <div class="text p-3 p-md-4">
+                <h3><a href="index.html#">Distribution of Dignity Towels for Girls.</a></h3>
+                <p>Promoting Girls to be able to participate in society.</p>
+                <br />
               </div>
             </div>
-            <div class="item">
-              <div class="cause-entry">
-                <a href="index.html#" class="img" style="background-image: url(images/cause-4.jpg);"></a>
-                <div class="text p-3 p-md-4">
-                  <h3><a href="index.html#">Clean water for the urban area</a></h3>
-                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic
-                    life</p>
-                  <span class="donation-time mb-3 d-block">Last donation 1w ago</span>
-                  <div class="progress custom-progress-success">
-                    <div class="progress-bar bg-primary" role="progressbar" style="width: 28%" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <span class="fund-raised d-block">$12,000 raised of $30,000</span>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="cause-entry">
-                <a href="index.html#" class="img" style="background-image: url(images/cause-5.jpg);"></a>
-                <div class="text p-3 p-md-4">
-                  <h3><a href="index.html#">Clean water for the urban area</a></h3>
-                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic
-                    life</p>
-                  <span class="donation-time mb-3 d-block">Last donation 1w ago</span>
-                  <div class="progress custom-progress-success">
-                    <div class="progress-bar bg-primary" role="progressbar" style="width: 28%" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <span class="fund-raised d-block">$12,000 raised of $30,000</span>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="cause-entry">
-                <a href="index.html#" class="img" style="background-image: url(images/cause-6.jpg);"></a>
-                <div class="text p-3 p-md-4">
-                  <h3><a href="index.html#">Clean water for the urban area</a></h3>
-                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic
-                    life</p>
-                  <span class="donation-time mb-3 d-block">Last donation 1w ago</span>
-                  <div class="progress custom-progress-success">
-                    <div class="progress-bar bg-primary" role="progressbar" style="width: 28%" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <span class="fund-raised d-block">$12,000 raised of $30,000</span>
-                </div>
+          </div>
+
+          <div class="item col-3 my-3">
+            <div class="cause-entry">
+              <a href="index.html#" class="img" style="background-image: url(images/event-4.jpg);"></a>
+              <div class="text p-3 p-md-4">
+                <h3><a href="index.html#">Medical bills and School fees for the vulnrable.</a></h3>
+                <p>Payment of Medical bills and School fees for the most vulnerable in
+                  the society.</p>
+                <br />
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
   </section>
 
 
@@ -278,7 +198,7 @@
 
 
     </div>
-    <button class="btn btn-success my-4" style="margin-left: 45%;" onclick="location.href='gallery.php';" >View more >></button>
+    <button class="btn btn-success my-4" style="margin-left: 45%;" onclick="location.href='gallery.php';">View more >></button>
   </section>
 
   <section class="ftco-section">
@@ -286,53 +206,52 @@
       <div class="row justify-content-center mb-5 pb-3">
         <div class="col-md-7 heading-section ftco-animate text-center">
           <h2 class="mb-4">Case study of lives impacted</h2>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
-            blind texts.</p>
+
         </div>
       </div>
       <div class="row d-flex">
         <div class="col-md-4 d-flex ftco-animate">
           <div class="blog-entry align-self-stretch">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
+            <a href="blog-single.html" class="block-20" style="background-image: url('images/activities/23.jpeg');">
             </a>
             <div class="text p-4 d-block">
               <div class="meta mb-3">
-                <div><a href="index.html#">Sept 10, 2018</a></div>
-                <div><a href="index.html#">Admin</a></div>
-                <div><a href="index.html#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                <div><a href="index.html#">2022.</a></div>
+                <div><a href="index.html#">Olijorork, Kenya</a></div>
+                <!-- <div><a href="index.html#" class="meta-chat"><span class="icon-chat"></span> 3</a></div> -->
               </div>
-              <h3 class="heading mt-3"><a href="index.html#">Hurricane Irma has devastated Florida</a></h3>
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              <!-- <h3 class="heading mt-3"><a href="index.html#">Hurricane Irma has devastated Florida</a></h3> -->
+              <p>Monitoring of a transistion program of a school leaver.</p>
             </div>
           </div>
         </div>
         <div class="col-md-4 d-flex ftco-animate">
           <div class="blog-entry align-self-stretch">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
+            <a href="blog-single.html" class="block-20" style="background-image: url('images/activities/21.jpeg');">
             </a>
             <div class="text p-4 d-block">
               <div class="meta mb-3">
-                <div><a href="index.html#">Sept 10, 2018</a></div>
-                <div><a href="index.html#">Admin</a></div>
-                <div><a href="index.html#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                <div><a href="index.html#">2022</a></div>
+                <div><a href="index.html#">Isiolo Kenya</a></div>
+
               </div>
-              <h3 class="heading mt-3"><a href="index.html#">Hurricane Irma has devastated Florida</a></h3>
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              <!-- <h3 class="heading mt-3"><a href="index.html#">Hurricane Irma has devastated Florida</a></h3> -->
+              <p>Pig rearing of one of the learners in transition.</p>
             </div>
           </div>
         </div>
         <div class="col-md-4 d-flex ftco-animate">
           <div class="blog-entry align-self-stretch">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
+            <a href="blog-single.html" class="block-20" style="background-image: url('images/activities/19.jpeg');">
             </a>
             <div class="text p-4 d-block">
               <div class="meta mb-3">
-                <div><a href="index.html#">Sept 10, 2018</a></div>
+                <div><a href="index.html#">2022</a></div>
                 <div><a href="index.html#">Admin</a></div>
-                <div><a href="index.html#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+
               </div>
-              <h3 class="heading mt-3"><a href="index.html#">Hurricane Irma has devastated Florida</a></h3>
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              <!-- <h3 class="heading mt-3"><a href="index.html#">Hurricane Irma has devastated Florida</a></h3> -->
+              <p>Participatin in support of Autistic children under the auspices of ANDY</p>
             </div>
           </div>
         </div>
@@ -348,57 +267,58 @@
         </div>
       </div>
       <div class="row">
+
         <div class="col-md-4 d-flex ftco-animate">
           <div class="blog-entry align-self-stretch">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/event-1.jpg');">
+            <a href="blog-single.html" class="block-20" style="background-image: url('images/activities/15.jpeg');">
             </a>
             <div class="text p-4 d-block">
               <div class="meta mb-3">
-                <div><a href="index.html#">Sep. 10, 2018</a></div>
-                <div><a href="index.html#">Admin</a></div>
-                <div><a href="index.html#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                <div><a href="index.html#">2023</a></div>
+                <div><a href="index.html#">Nairobi</a></div>
+
               </div>
-              <h3 class="heading mb-4"><a href="index.html#">World Wide Donation</a></h3>
-              <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              <p><a href="event.html">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
+              <p>Planning and implementing transition programm in conjuction with advantage africa</p>
             </div>
           </div>
         </div>
+
+
         <div class="col-md-4 d-flex ftco-animate">
           <div class="blog-entry align-self-stretch">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/event-2.jpg');">
+            <a href="blog-single.html" class="block-20" style="background-image: url('images/activities/18.jpeg');">
             </a>
             <div class="text p-4 d-block">
               <div class="meta mb-3">
-                <div><a href="index.html#">Sep. 10, 2018</a></div>
-                <div><a href="index.html#">Admin</a></div>
-                <div><a href="index.html#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                <div><a href="index.html#">2022</a></div>
+                <div><a href="index.html#">Nairobi</a></div>
+
               </div>
-              <h3 class="heading mb-4"><a href="index.html#">World Wide Donation</a></h3>
-              <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              <p><a href="event.html">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
+              <p>Donating foodstuffs at Githogoro slums</p>
             </div>
           </div>
         </div>
+
+
+
+
         <div class="col-md-4 d-flex ftco-animate">
           <div class="blog-entry align-self-stretch">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/event-3.jpg');">
+            <a href="blog-single.html" class="block-20" style="background-image: url('images/activities/17.jpeg');">
             </a>
             <div class="text p-4 d-block">
               <div class="meta mb-3">
-                <div><a href="index.html#">Sep. 10, 2018</a></div>
-                <div><a href="index.html#">Admin</a></div>
-                <div><a href="index.html#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                <div><a href="index.html#"></a></div>
+                <div><a href="index.html#">Nairobi</a></div>
+
               </div>
-              <h3 class="heading mb-4"><a href="index.html#">World Wide Donation</a></h3>
-              <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              <p><a href="event.html">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
+              <p>Transition trainees at Dagoretti special school</p>
             </div>
           </div>
         </div>
+
+
+
       </div>
     </div>
   </section>
@@ -432,6 +352,35 @@
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
 
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import {
+      initializeApp
+    } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-app.js";
+    import {
+      getAnalytics
+    } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyCJo049UPYBhltk8pXWeOMrI2FIgpS96jo",
+      authDomain: "msifa-c45b4.firebaseapp.com",
+      projectId: "msifa-c45b4",
+      storageBucket: "msifa-c45b4.appspot.com",
+      messagingSenderId: "850360903720",
+      appId: "1:850360903720:web:7c666b67511c2b3e1e2d1d",
+      measurementId: "G-QK6HGQNPHP"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+    // Initialize Performance Monitoring and get a reference to the service
+    const perf = app.performance()
+  </script>
 </body>
 
 </html>
