@@ -116,11 +116,13 @@
 
                             <h3 class="heading mb-4"><a href="event.html#">Kenn Kamau</a></h3>
                             <!-- <p class="time-loc"><span class="mr-2"> </span> <span><i class="icon-map-o"></i> Director</span></p> -->
-                            <p>CTO , Software engineer.</p>
+                            <p>CTO ,Full stack Software engineer &emsp;.</p>
 
                         </div>
                     </div>
                 </div>
+
+              
 
             </div>
 
